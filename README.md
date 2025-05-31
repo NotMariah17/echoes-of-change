@@ -1,2 +1,2 @@
 # echoes of change
-must we do this? yes, we must.
+A website to raise awareness about child abuse.
