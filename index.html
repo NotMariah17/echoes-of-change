@@ -4,9 +4,84 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Echoes of Change</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    input[type="email"] {
+      padding: 0.7rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    button {
+      padding: 0.7rem 1.2rem;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .socials {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .socials a {
+      color: #111;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #444;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <h1>Echoes of Change</h1>
-  <p>Four voices, one purpose: to break the silence around child abuse.</p>
+  <p>Sign up with your email address to receive news and updates.</p>
+
+  <form>
+    <input type="email" placeholder="Email Address" required />
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <div class="socials">
+    <a href="#" title="Instagram">📸</a>
+    <a href="#" title="Twitter">🐦</a>
+    <a href="#" title="Facebook">📘</a>
+  </div>
+
+  <p class="tagline">Four voices, one purpose: to break the silence around child abuse.</p>
 </body>
 </html>
